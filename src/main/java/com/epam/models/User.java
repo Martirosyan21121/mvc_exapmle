@@ -1,8 +1,10 @@
 package com.epam.models;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.util.Objects;
+
 
 @Entity
 @Table(name = "user")
