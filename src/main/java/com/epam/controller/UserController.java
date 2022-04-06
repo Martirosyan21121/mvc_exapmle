@@ -4,6 +4,7 @@ import com.epam.models.User;
 import com.epam.repositores.UserRepo;
 import com.epam.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
+@Component
 public class UserController {
 
   public UserRepo userRepo;
